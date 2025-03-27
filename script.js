@@ -110,7 +110,7 @@ function getFileExtension(filename) {
 function getFileIcon(filename) {
     const ext = getFileExtension(filename);
     const icons = {
-        pdf: '📄',
+        pdf: '📙',
         doc: '📝',
         docx: '📝',
         txt: '📝',
@@ -162,7 +162,7 @@ async function renderPDFPreview(url, container) {
         console.error('Error generating PDF preview:', error);
         container.innerHTML = `
             <div class="preview-placeholder">
-                📄
+                📙
                 <div class="preview-error">Preview not available</div>
             </div>
         `;
