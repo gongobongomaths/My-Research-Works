@@ -2,7 +2,7 @@
 const config = {
     repository: {
         owner: "gongobongomaths",
-        name: "My-Research-Works",
+        name: "My-Research-Server",
         branch: "main",
         excludedFiles: [
             "index.html",
