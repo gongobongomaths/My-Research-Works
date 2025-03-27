@@ -163,7 +163,6 @@ async function renderPDFPreview(url, container) {
         container.innerHTML = `
             <div class="preview-placeholder">
                 📙
-                <div class="preview-error">Preview not available</div>
             </div>
         `;
     }
